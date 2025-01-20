@@ -1,0 +1,79 @@
+.navbar {
+    background-color: #080125CF !important;
+    color: #fff;
+}
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgba(188, 77, 200, 1) !important;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(270deg, #BC4DC8 1.94%, #0D26B5 96.77%);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Active link styling */
+
+.nav-link.active {
+    color: rgba(188, 77, 200, 1) !important;
+}
+
+.nav-link.active::after {
+    width: 100%;
+
+}
+.nav-link {
+    margin-right: 20px !important;
+    /* Adds space between nav-links */
+}
+
+.btn-primary:hover {
+    background-color: #5670b5;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.gradient_btn {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gradient_btn:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #fff;
+}
+/* ------- */
